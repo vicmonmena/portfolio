@@ -12,7 +12,7 @@ const Footer = () => (
     <a href="/">??</a>.
     This code is available at
     {` `}
-    and <a href="https://github.com/">Github</a>.
+    and <a href="https://github.com/vicmonmena/portfolio">Github</a>.
   </footer>
 )
 
