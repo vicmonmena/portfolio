@@ -1,7 +1,7 @@
 import React from "react"
 
 const Footer = () => (
-  <footer>
+  <footer className='footer'>
     Built with
     {` `}
     <a href="https://www.gatsbyjs.org">Gatsby</a>
@@ -12,7 +12,7 @@ const Footer = () => (
     <a href="/">??</a>.
     This code is available at
     {` `}
-    and <a href="https://github.com/vicmonmena/portfolio">Github</a>.
+    <a href="https://github.com/vicmonmena/portfolio">Github</a>.
   </footer>
 )
 

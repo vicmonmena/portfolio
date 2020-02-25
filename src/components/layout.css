@@ -3,6 +3,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   color:  black;
+  height: 100%;
 }
 body {
   margin: 0;
@@ -623,23 +624,17 @@ pre tt:after {
   }
 }
 
+#___gatsby {
+  height: 100%;
+}
+
+#gatsby-focus-wrapper{
+  height: 100%;
+}
+
 .layout {
   display: flex;
-}
-
-.side-bar {
-  width: 20%;
   height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  border:1px solid black;
-  padding: 20px;
-}
-
-.avatar-container {
-  display: flex;
-  justify-content: center;
 }
 
 .content {
@@ -648,10 +643,67 @@ pre tt:after {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border:1px solid black;
+  /* border:1px solid black; */
   padding: 20px;
 }
 
+.side-bar {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border:1px solid black; */
+  padding: 10px;
+}
+
+.avatar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+}
+
+.sidebar-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  height: 80%;
+}
+
+.sidebar-info-item-title {
+  text-align: center;
+}
+
+.sidebar-info-item {
+  width: 100%;
+}
+
+.about {
+  
+}
+
+.interest {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.followme {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.gradient_line{ 
+  margin: 0 0 20px 0;
+  display: block;
+  border: none;
+  height: 1px;
+  background: #0071B9;
+  background: linear-gradient(to right, white, #0071B9, #26ABFF, #0071B9, white);
+}
 
 .navigation-container {
   width: 100%;
@@ -665,7 +717,7 @@ pre tt:after {
   justify-content: center;
   color: black;
   align-items: center;
-  border:3px solid #551A8B;
+  border:3px solid rgb(0, 113, 185);
 }
 
 .navigation-item a {
@@ -674,21 +726,31 @@ pre tt:after {
   min-width: 120px;
   text-align: center;
   text-decoration: none;
+  color: #0071b9;
 }
 
 .navigation-item :hover {
-  background-color:rgba(85, 26, 139, 0.3);
+  background-color:rgb(0, 113, 185, 0.3);
   color: #fff;
   /* border:3px solid #551A8B; */
   /* border-radius: 5px; */
 }
 
 .item-selected {
-  background-color:rgba(85, 26, 139, 0.3);
+  background-color:hsla(203, 100%, 36%, 0.3);
 }
 
 .main-container {
   display: flex;
+  flex: 1 0 auto;
   width: 100%;
   padding: 10px;
+}
+
+.footer {
+  flex-shrink: 0;
+}
+
+.footer a {
+  color: #0071B9;
 }
