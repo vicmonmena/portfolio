@@ -27,14 +27,15 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
-    `gatsby-plugin-material-ui`,
+    `gatsby-plugin-material-ui`, 
+    `gatsby-transformer-json`,
     {
-      resolve: `@micalgenus/gatsby-plugin-github-avatar`,
+      resolve: `gatsby-source-filesystem`,
       options: {
-        username: `vicmonmena`, // Github username
-        default: 1126104, // Github userid for default image
+        name: `data`,
+        path: `${__dirname}/src/data`,
       },
-    }
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

@@ -46,9 +46,9 @@ const SideBar = () => {
           <h3 className='sidebar-info-item-title'>Follow me</h3>
           <hr className="gradient_line" />
           <div className='followme'>
-            <a href="https://twitter.com/vicmonmena"><img style={styles} src={twitter} alt="Twitter" title="Twitter" /></a>
-            <a href="https://www.codewars.com/users/vicmonmena"><img style={styles} src={codewars} alt="Codewars" title="Codewars" /></a>
-            <a href="https://www.linkedin.com/in/vicmonmena/"><img style={styles} src={linkedin} alt="Linkedin" title="Linkedin" /></a>
+            <a href="https://twitter.com/vicmonmena" target="_blank"><img style={styles} src={twitter} alt="Twitter" title="Twitter" /></a>
+            <a href="https://www.codewars.com/users/vicmonmena" target="_blank"><img style={styles} src={codewars} alt="Codewars" title="Codewars" /></a>
+            <a href="https://www.linkedin.com/in/vicmonmena/" target="_blank"><img style={styles} src={linkedin} alt="Linkedin" title="Linkedin" /></a>
           </div>
         </div>
       </div>

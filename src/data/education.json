@@ -1,0 +1,66 @@
+{
+  "reglada": {
+    "1": {
+      "logo": "",
+      "centro": "Colegio Aljarafe",
+      "titulo": "",
+      "descripcion": "",
+      "periodo": {
+        "desde": "22-Nov-17",
+        "hasta": "24-Nov-17"
+      }
+    },
+    "2": {
+      "logo": "",
+      "centro": "Universidad de Huelva",
+      "titulo": "",
+      "descripcion": "",
+      "periodo": {
+        "desde": "22-Nov-17",
+        "hasta": "24-Nov-17"
+      }
+    },
+    "3": {
+      "logo": "",
+      "centro": "Universidad Alfonso X El Sabio",
+      "titulo": "",
+      "descripcion": "",
+      "periodo": {
+        "desde": "22-Nov-17",
+        "hasta": "24-Nov-17"
+      }
+    }
+  },
+  "no-reglada": {
+    "1": {
+      "logo": "",
+      "centro": "Escuela Internacional de Gestión de Proyectos (EIGP)",
+      "titulo": "Colegio Aljarafe",
+      "description": "",
+      "periodo": {
+        "desde": "Agosto 2019",
+        "hasta": ""
+      }
+    },
+    "2": {
+      "logo": "",
+      "centro": "Udacity",
+      "titulo": "",
+      "description": "",
+      "periodo": {
+        "desde": "22-Nov-17",
+        "hasta": "24-Nov-17"
+      }
+    },
+    "3": {
+      "logo": "",
+      "centro": "Qlik",
+      "titulo": "QlikView Developer",
+      "description": "",
+      "periodo": {
+        "desde": "22-Nov-17",
+        "hasta": "24-Nov-17"
+      }
+    }
+  }
+}
