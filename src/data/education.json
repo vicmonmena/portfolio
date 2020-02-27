@@ -1,38 +1,42 @@
 {
-  "reglada": {
-    "1": {
+  "reglada": [
+    {
+      "id": 1,
       "logo": "",
       "centro": "Colegio Aljarafe",
-      "titulo": "",
-      "descripcion": "",
+      "titulo": "Bachiller Tecnológico",
+      "descripcion": "Cursadas las asignaturas de Matemáticas, Física, Dibujo Técnico, Inglés, Francés",
       "periodo": {
-        "desde": "22-Nov-17",
-        "hasta": "24-Nov-17"
+        "desde": "2000",
+        "hasta": "2002"
       }
     },
-    "2": {
+    {
+      "id": 2,
       "logo": "",
       "centro": "Universidad de Huelva",
-      "titulo": "",
-      "descripcion": "",
+      "titulo": "Ingeniero Técnico en Informática, Gestión",
+      "descripcion": "Ingeniería del Software. Administración de BBDDs.",
       "periodo": {
-        "desde": "22-Nov-17",
-        "hasta": "24-Nov-17"
+        "desde": "2002",
+        "hasta": "2009"
       }
     },
-    "3": {
-      "logo": "",
-      "centro": "Universidad Alfonso X El Sabio",
-      "titulo": "",
-      "descripcion": "",
-      "periodo": {
-        "desde": "22-Nov-17",
-        "hasta": "24-Nov-17"
-      }
-    }
-  },
-  "no-reglada": {
-    "1": {
+    {
+      "id": 3,
+       "logo": "",
+       "centro": "Universidad Alfonso X El Sabio",
+       "titulo": "",
+       "descripcion": "Desarrollo de aplicaciomes iOS y Android. Generación de negocio. Arquitectura de redes. Seguridad y optimización del software.",
+       "periodo": {
+         "desde": "2013",
+         "hasta": "2014"
+       }
+     }
+  ],
+  "no-reglada": [
+    {
+      "id": 1,
       "logo": "",
       "centro": "Escuela Internacional de Gestión de Proyectos (EIGP)",
       "titulo": "Colegio Aljarafe",
@@ -42,7 +46,8 @@
         "hasta": ""
       }
     },
-    "2": {
+    {
+      "id": 2,
       "logo": "",
       "centro": "Udacity",
       "titulo": "",
@@ -52,7 +57,8 @@
         "hasta": "24-Nov-17"
       }
     },
-    "3": {
+    {
+      "id": 3,
       "logo": "",
       "centro": "Qlik",
       "titulo": "QlikView Developer",
@@ -62,5 +68,5 @@
         "hasta": "24-Nov-17"
       }
     }
-  }
+  ]
 }

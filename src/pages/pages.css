@@ -1,5 +1,10 @@
 .education-container {
   display: flex;
+  flex-direction: column;
+}
+
+.education-container-reglada, .education-container-noreglada {
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
