@@ -1,16 +1,19 @@
 .education-item {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  border: 1px solid black;
 }
 
 .education-item-info {
   display: flex;
   flex-direction: column;
+  border: 1px solid black;
 }
 
-.education-item-info-top {
+.education-item-titulo {
   display: flex;
   flex-direction: row;
+  border: 1px solid black;
 }
 
 .education-item-logo {
