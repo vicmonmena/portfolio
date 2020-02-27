@@ -12,10 +12,10 @@ function Education({location}) {
   {
     allDataJson {
       nodes {
-        no_reglada {
+        reglada {
           centro
+          descripcion
           id
-          description
           logo
           periodo {
             desde
@@ -23,10 +23,10 @@ function Education({location}) {
           }
           titulo
         }
-        reglada {
+        noreglada {
           centro
-          descripcion
           id
+          description
           logo
           periodo {
             desde
@@ -61,7 +61,7 @@ function Education({location}) {
         </div>
         <div className ='education-container-noreglada'>
           {
-            data.allDataJson.nodes[0].no-reglada.map(item => {
+            data.allDataJson.nodes[0].noreglada.map(item => {
               return (
                 <EducationItem 
                   logo={item.logo}
