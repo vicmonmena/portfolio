@@ -39,22 +39,22 @@
       "id": 1,
       "logo": "",
       "centro": "Escuela Internacional de Gestión de Proyectos (EIGP)",
-      "titulo": "Colegio Aljarafe",
+      "titulo": "Scrum Master Professional Certified (SMPC)",
       "description": "",
       "periodo": {
         "desde": "Agosto 2019",
-        "hasta": ""
+        "hasta": "Agosto 2019"
       }
     },
     {
       "id": 2,
       "logo": "",
       "centro": "Udacity",
-      "titulo": "",
-      "description": "",
+      "titulo": "React Nanodegree",
+      "description": "React Fundamentals. React & Redux. React Native.",
       "periodo": {
-        "desde": "22-Nov-17",
-        "hasta": "24-Nov-17"
+        "desde": "Septiembre 2018",
+        "hasta": "Febrero 2019"
       }
     },
     {
@@ -64,8 +64,8 @@
       "titulo": "QlikView Developer",
       "description": "",
       "periodo": {
-        "desde": "22-Nov-17",
-        "hasta": "24-Nov-17"
+        "desde": "Noviembre 2017",
+        "hasta": "Noviembre 2017"
       }
     }
   ]

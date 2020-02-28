@@ -9,34 +9,37 @@ import "./pages.css"
 function Education({location}) {
 
   const data = useStaticQuery(graphql`
-  {
-    allDataJson {
-      nodes {
-        reglada {
-          centro
-          descripcion
-          id
-          logo
-          periodo {
-            desde
-            hasta
+    {
+      allDataJson {
+        nodes {
+          noreglada {
+            centro
+            id
+            description
+            logo
+            periodo {
+              desde
+              hasta
+            }
+            titulo
           }
-          titulo
-        }
-        noreglada {
-          centro
-          id
-          description
-          logo
-          periodo {
-            desde
-            hasta
+          reglada {
+            centro
+            descripcion
+            id
+            logo
+            periodo {
+              desde
+              hasta
+            }
+            titulo
           }
-          titulo
         }
       }
     }
-  }`)
+  `)
+
+  
   console.log('data: ', data);
     
   return (
