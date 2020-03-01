@@ -15,7 +15,7 @@ function Education({location}) {
           noreglada {
             centro
             id
-            description
+            descripcion
             logo
             periodo {
               desde
@@ -39,39 +39,42 @@ function Education({location}) {
     }
   `)
 
-  
-  console.log('data: ', data);
-    
   return (
     <Layout path={location.pathname}>
       <SEO title="Home" />
-      <h1>{location.pathname}</h1>
+      {/* <h1>{location.pathname}</h1> */}
       <div className ='education-container'>
         <div className ='education-container-reglada'>
+          <h3 className="education-title">Formación Reglada</h3>
+          <hr className="gradient_line" /> 
           {
             data.allDataJson.nodes[0].reglada.map(item => {
               return (
                 <EducationItem 
                   logo={item.logo}
-                  titulo={item.titulo}
-                  date={item.periodo}
+                  title={item.titulo}
+                  since={item.periodo.desde}
+                  to={item.periodo.hasta}
                   description={item.descripcion}
-                  centro={item.centro}
+                  where={item.centro}
                 />
               )
             })
           }
         </div>
         <div className ='education-container-noreglada'>
+          <h3 className="education-title">Formación No Reglada</h3>
+          <hr className="gradient_line" />
           {
             data.allDataJson.nodes[0].noreglada.map(item => {
               return (
                 <EducationItem 
                   logo={item.logo}
-                  titulo={item.titulo}
-                  date={item.periodo}
+                  title={item.titulo}
+                  since={item.periodo.desde}
+                  to={item.periodo.hasta}
                   description={item.descripcion}
-                  centro={item.centro}
+                  where={item.centro}
                 />
               )
             })

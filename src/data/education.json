@@ -5,7 +5,7 @@
       "logo": "",
       "centro": "Colegio Aljarafe",
       "titulo": "Bachiller Tecnológico",
-      "descripcion": "Cursadas las asignaturas de Matemáticas, Física, Dibujo Técnico, Inglés, Francés",
+      "descripcion": "Cursadas las asignaturas de Matemáticas, Física, Dibujo Técnico, Inglés, Francés, Lengua y Literatura e Historia de España",
       "periodo": {
         "desde": "2000",
         "hasta": "2002"
@@ -26,7 +26,7 @@
       "id": 3,
        "logo": "",
        "centro": "Universidad Alfonso X El Sabio",
-       "titulo": "",
+       "titulo": "Máster universitario en ingeniería de desarrollo para dispositivos móviles",
        "descripcion": "Desarrollo de aplicaciomes iOS y Android. Generación de negocio. Arquitectura de redes. Seguridad y optimización del software.",
        "periodo": {
          "desde": "2013",
@@ -40,7 +40,7 @@
       "logo": "",
       "centro": "Escuela Internacional de Gestión de Proyectos (EIGP)",
       "titulo": "Scrum Master Professional Certified (SMPC)",
-      "description": "",
+      "descripcion": "Agile. SCRUM Técnico. SCRUM Avanzado.",
       "periodo": {
         "desde": "Agosto 2019",
         "hasta": "Agosto 2019"
@@ -51,7 +51,7 @@
       "logo": "",
       "centro": "Udacity",
       "titulo": "React Nanodegree",
-      "description": "React Fundamentals. React & Redux. React Native.",
+      "descripcion": "React Fundamentals. React & Redux. React Native.",
       "periodo": {
         "desde": "Septiembre 2018",
         "hasta": "Febrero 2019"
@@ -62,7 +62,7 @@
       "logo": "",
       "centro": "Qlik",
       "titulo": "QlikView Developer",
-      "description": "",
+      "descripcion": "Create a data model in QlikView. Build a QlikView application. Resolve data structure issues. Access the Debugger. Define the advanced uses of the script editor. Use Transformative Functions in the script. Discuss Synthetic Keys",
       "periodo": {
         "desde": "Noviembre 2017",
         "hasta": "Noviembre 2017"

@@ -5,6 +5,11 @@
 
 .education-container-reglada, .education-container-noreglada {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
+}
+
+.education-title {
+  margin-top: 30px;
+  font-weight: bold;
 }

@@ -1,31 +1,40 @@
+:root {
+  --blue-color: #0071b8;
+  --blue-color-opacity: #0071b84d;
+}
+
 .education-item {
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
+  /* border: 1px solid black; */
+  padding: 10px;
 }
 
 .education-item-info {
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
-.education-item-titulo {
+.education-item-main {
   display: flex;
   flex-direction: row;
-  border: 1px solid black;
+  justify-content: start;
+  /* border: 1px solid black; */
+}
+
+.education-item-title {
+  color: var(--blue-color);
+  margin-right: 10px;
 }
 
 .education-item-logo {
 
 }
 
-.education-item-title {
-
-}
 
 .education-item-period {
-
+  font-weight: bold;
 }
 
 .education-item-description {
