@@ -1,6 +1,7 @@
 :root {
   --blue-color: #0071b8;
   --blue-color-opacity: #0071b84d;
+  --gray-color: #787878;
 }
 
 .education-item {
@@ -8,6 +9,7 @@
   flex-direction: column;
   /* border: 1px solid black; */
   padding: 10px;
+  margin-bottom:10px
 }
 
 .education-item-info {
@@ -26,6 +28,7 @@
 .education-item-title {
   color: var(--blue-color);
   margin-right: 10px;
+  font-weight: bold;
 }
 
 .education-item-logo {
@@ -38,5 +41,6 @@
 }
 
 .education-item-description {
-
+  color: var(--gray-color);
+  font-weight: bold;
 }

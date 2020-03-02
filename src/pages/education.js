@@ -12,10 +12,10 @@ function Education({location}) {
     {
       allDataJson {
         nodes {
-          noreglada {
+          reglada {
             centro
-            id
             descripcion
+            id
             logo
             periodo {
               desde
@@ -23,10 +23,10 @@ function Education({location}) {
             }
             titulo
           }
-          reglada {
+          noreglada {
             centro
-            descripcion
             id
+            descripcion
             logo
             periodo {
               desde
@@ -48,7 +48,7 @@ function Education({location}) {
           <h3 className="education-title">Formación Reglada</h3>
           <hr className="gradient_line" /> 
           {
-            data.allDataJson.nodes[0].reglada.map(item => {
+            data.allDataJson.nodes[0].reglada.sort((a, b) => a.id - b.id).map(item => {
               return (
                 <EducationItem 
                   logo={item.logo}
@@ -66,7 +66,7 @@ function Education({location}) {
           <h3 className="education-title">Formación No Reglada</h3>
           <hr className="gradient_line" />
           {
-            data.allDataJson.nodes[0].noreglada.map(item => {
+            data.allDataJson.nodes[0].noreglada.sort((a, b) => a.id - b.id).map(item => {
               return (
                 <EducationItem 
                   logo={item.logo}

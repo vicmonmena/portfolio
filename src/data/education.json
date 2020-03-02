@@ -3,12 +3,12 @@
     {
       "id": 1,
       "logo": "",
-      "centro": "Colegio Aljarafe",
-      "titulo": "Bachiller Tecnológico",
-      "descripcion": "Cursadas las asignaturas de Matemáticas, Física, Dibujo Técnico, Inglés, Francés, Lengua y Literatura e Historia de España",
+      "centro": "Universidad Alfonso X El Sabio",
+      "titulo": "Máster universitario en ingeniería de desarrollo para dispositivos móviles",
+      "descripcion": "Desarrollo de aplicaciomes iOS y Android. Generación de negocio. Arquitectura de redes. Seguridad y optimización del software.",
       "periodo": {
-        "desde": "2000",
-        "hasta": "2002"
+        "desde": "2013",
+        "hasta": "2014"
       }
     },
     {
@@ -24,15 +24,16 @@
     },
     {
       "id": 3,
-       "logo": "",
-       "centro": "Universidad Alfonso X El Sabio",
-       "titulo": "Máster universitario en ingeniería de desarrollo para dispositivos móviles",
-       "descripcion": "Desarrollo de aplicaciomes iOS y Android. Generación de negocio. Arquitectura de redes. Seguridad y optimización del software.",
-       "periodo": {
-         "desde": "2013",
-         "hasta": "2014"
-       }
-     }
+      "logo": "",
+      "centro": "Colegio Aljarafe",
+      "titulo": "Bachiller Tecnológico",
+      "descripcion": "Cursadas las asignaturas de Matemáticas, Física, Dibujo Técnico, Inglés, Francés, Lengua y Literatura e Historia de España",
+      "periodo": {
+        "desde": "2000",
+        "hasta": "2002"
+      }
+    }
+    
   ],
   "noreglada": [
     {
