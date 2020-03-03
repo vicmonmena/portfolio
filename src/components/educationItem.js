@@ -11,7 +11,7 @@ const EducationItem = ({logo, title, description, since, to, where}) => {
         ? to
         : !(to)
           ? since
-          : since == to
+          : since === to
             ? since
             : 'Sin definir'
   }
