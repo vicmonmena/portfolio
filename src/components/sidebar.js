@@ -7,6 +7,7 @@ import drawing from './../images/drawing.png'
 import codewars from './../images/codewars.png'
 import twitter from './../images/twitter.png'
 import linkedin from './../images/linkedin.png'
+import github from './../images/github.png'
 
 const SideBar = () => {
 
@@ -47,8 +48,9 @@ const SideBar = () => {
           <hr className="gradient_line" />
           <div className='followme'>
             <a href="https://twitter.com/vicmonmena" target="_blank" rel="noopener noreferrer"><img style={styles} src={twitter} alt="Twitter" title="Twitter" /></a>
-            <a href="https://www.codewars.com/users/vicmonmena" target="_blank" rel="noopener noreferrer"><img style={styles} src={codewars} alt="Codewars" title="Codewars" /></a>
+            <a href="https://github.com/vicmonmena" target="_blank" rel="noopener noreferrer"><img style={styles} src={github} alt="Github" title="Github" /></a>
             <a href="https://www.linkedin.com/in/vicmonmena/" target="_blank" rel="noopener noreferrer"><img style={styles} src={linkedin} alt="Linkedin" title="Linkedin" /></a>
+            <a href="https://www.codewars.com/users/vicmonmena" target="_blank" rel="noopener noreferrer"><img style={styles} src={codewars} alt="Codewars" title="Codewars" /></a>
           </div>
         </div>
       </div>
