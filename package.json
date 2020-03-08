@@ -5,6 +5,8 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@material-ui/core": "^4.9.5",
+    "@material-ui/icons": "^4.9.1",
     "@material-ui/styles": "^4.9.0",
     "@tippy.js/react": "^3.1.1",
     "gatsby": "^2.19.22",
@@ -20,7 +22,8 @@
     "gatsby-transformer-sharp": "^2.3.13",
     "prop-types": "^15.7.2",
     "react-dom": "^16.13.0",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "react-vertical-timeline-component": "^2.5.0"
   },
   "devDependencies": {
     "prettier": "^1.19.1"

@@ -8,6 +8,8 @@ import codewars from './../images/codewars.png'
 import twitter from './../images/twitter.png'
 import linkedin from './../images/linkedin.png'
 import github from './../images/github.png'
+import {SportsTennis, VideogameAsset, Code, Brush} from "@material-ui/icons"
+import {Twitter, Linkedin, GiHubt } from "@material-ui/icons"
 
 const SideBar = () => {
 
@@ -37,10 +39,10 @@ const SideBar = () => {
           <h3 className='sidebar-info-item-title'>Intereses / Aficiones</h3>
           <hr className="gradient_line" />
           <div className='interest'>
-            <img style={styles} src={tennis} alt="Tenis" title="Tenis" />
-            <img style={styles} src={programming} alt="Programación" title="Programación" />
-            <img style={styles} src={videogames} alt="Videojuegos" title="Videojuegos" />
-            <img style={styles} src={drawing} alt="Dibujar" title="Dibujar" />
+            <SportsTennis fontSize="large" className="interest-icons"/>
+            <Code fontSize="large" className="interest-icons"/>
+            <VideogameAsset fontSize="large" className="interest-icons"/>
+            <Brush fontSize="large" className="interest-icons"/>
           </div>
         </div>
         <div className='sidebar-info-item'>
