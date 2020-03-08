@@ -20,7 +20,7 @@ const Skills = ({location}) => {
   return (
     <Layout path={location.pathname}>
       <SEO title="Home" />
-      <div className="skills-content">
+      <div className="skills-container">
         <div className="skills-items-description">
           { itemClicked !== "" && items[itemClicked]}
         </div>

@@ -5,18 +5,20 @@
   --gray-color-opacity: #7878784d;
 }
 
-/* -------- EXPERIENCE ------- */
+/* -------- PAGE CONTAINERS ------- */
 
-
-/* -------- SKILLS ------- */
-
-.skills-content {
+.experience-container, .skills-container, .education-container {
   display: flex;
   flex-direction: column;
   align-content: space-between;
   margin-top: 30px;
-  width: 70%;
+  width: 90%;
 }
+
+/* -------- EXPERIENCE ------- */
+
+
+/* -------- SKILLS ------- */
 
 .skills-items-description {
   display: flex;
@@ -34,11 +36,6 @@
 }
 
 /* -------- EDUCATION ------- */
-
-.education-container {
-  display: flex;
-  flex-direction: column;
-}
 
 .education-container-reglada, .education-container-noreglada {
   display: flex;

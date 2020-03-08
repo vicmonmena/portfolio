@@ -1,0 +1,110 @@
+{
+  "javascript": {
+    "summary": "",
+    "tag": ["development"]
+  },
+  "java": {
+    "summary": "",
+    "tag": ["development"]
+  },
+  "python": {
+    "summary": "",
+    "tag": ["development"]
+  },
+  "sql": {
+    "summary": "",
+    "tag": ["development"]
+  },
+  "nodejs": {
+    "summary": "",
+    "tag": ["development"]
+  },
+  "reactjs": {
+    "summary": "",
+    "tag": ["development"]
+  },
+  "redux": {
+    "summary": "",
+    "tag": ["development"]
+  },
+  "react-native": {
+    "summary": "",
+    "tag": ["development"]
+  },
+  "html": {
+    "summary": "",
+    "tag": ["development"]
+  },
+  "css": {
+    "summary": "",
+    "tag": ["development"]
+  },
+  "linux": {
+    "summary": "",
+    "tag": ["development"]
+  },
+  "docker": {
+    "summary": "",
+    "tag": ["development"]
+  },
+  "maven": {
+    "summary": "",
+    "tag": ["development"]
+  },
+  "npm": {
+    "summary": "",
+    "tag": ["development"]
+  },
+  "ldap": {
+    "summary": "",
+    "tag": ["development"]
+  },
+  "sqlserver": {
+    "summary": "",
+    "tag": ["development"]
+  },
+  "mongodb": {
+    "summary": "",
+    "tag": ["development"]
+  },
+  "mysql": {
+    "summary": "",
+    "tag": ["development"]
+  },
+  "apirest": {
+    "summary": "",
+    "tag": ["development"]
+  },
+  "soap": {
+    "summary": "",
+    "tag": ["development"]
+  },
+  "json": {
+    "summary": "",
+    "tag": ["development"]
+  },
+  "xml": {
+    "summary": "",
+    "tag": ["development"]
+  },
+  "php": {
+    "summary": "",
+    "tag": ["development"]
+  },
+  "yii2": {
+    "summary": "",
+    "tag": ["development"]
+  },
+  "angularjs": {
+    "summary": "",
+    "tag": ["development"]
+  },
+  "git": {
+    "summary": "",
+    "tag": ["development"]
+  },
+  "svn": {
+    "summary": "",
+    "tag": ["development"]
+  }
+}
