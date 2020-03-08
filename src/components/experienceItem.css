@@ -1,0 +1,16 @@
+:root {
+  --blue-color: #0071b8;
+  --blue-color-opacity: #0071b84d;
+  --gray-color: #787878;
+  --gray-color-opacity: #7878784d;
+}
+
+.vertical-timeline-element-content {
+  /*overwritting class*/
+  box-shadow: none;
+}
+
+.vertical-timeline-element-date {
+  color: #0071b8;
+  font-weight: bold !important;
+}

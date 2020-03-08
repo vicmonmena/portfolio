@@ -645,7 +645,7 @@ pre tt:after {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   /* border:1px solid black; */
   padding: 20px;
 }
@@ -694,10 +694,19 @@ pre tt:after {
   justify-content: space-around;
 }
 
+.interest-icons {
+  width: 40px;
+  height: 40px;
+}
+
 .followme {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+
+.followme a:hover, a:active, a:link, a:visited  {
+  text-decoration: none;
 }
 
 .gradient_line{ 
