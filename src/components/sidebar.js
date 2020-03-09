@@ -1,15 +1,10 @@
 import React from "react"
 import Avatar from './avatar';
-import tennis from './../images/tennis.png'
-import programming from './../images/programming.png'
-import videogames from './../images/videogames.png'
-import drawing from './../images/drawing.png'
 import codewars from './../images/codewars.png'
 import twitter from './../images/twitter.png'
 import linkedin from './../images/linkedin.png'
 import github from './../images/github.png'
 import {SportsTennis, VideogameAsset, Code, Brush} from "@material-ui/icons"
-import {Twitter, Linkedin, GiHubt } from "@material-ui/icons"
 
 const SideBar = () => {
 
