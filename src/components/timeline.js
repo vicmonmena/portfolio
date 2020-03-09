@@ -2,7 +2,7 @@ import React from 'react';
 import { VerticalTimeline }  from 'react-vertical-timeline-component';
 import ExperienceItem from './experienceItem';
 
-const Timeline = ({}) => {
+const Timeline = () => {
   
   return (
     <VerticalTimeline>
