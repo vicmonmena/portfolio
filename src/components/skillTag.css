@@ -1,0 +1,23 @@
+:root {
+  --blue-color: #0071b8;
+  --blue-color-opacity: #0071b84d;
+  --gray-color: #787878;
+  --gray-color-opacity: #7878784d;
+}
+
+.skill-tag {
+  color: var(--blue-color);
+}
+
+.button-tag {
+  background: none!important;
+  border: none;
+  color: var(--blue-color);
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: medium;
+}
+
+.button-tag:hover {
+  text-decoration: underline;
+}

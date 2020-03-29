@@ -14,7 +14,7 @@
     },
     "sql": {
       "summary": "Ya en la carrera comencé a trabajar con BBDD realcionales y continúo trabajando con SQL sobre todo con BBDDs SQL Server.",
-      "tag": ["development"]
+      "tag": ["dba"]
     },
     "nodejs": {
       "summary": "Lo utilizo actualmente para desarrollar APIs Rest y para la parte Backend de los proyectos webs en los que trabajo",
@@ -30,7 +30,7 @@
     },
     "react_native": {
       "summary": "Durante la formación a través de Udacity pude construir un par de APPs basadas en React Native",
-      "tag": ["development"]
+      "tag": ["mobile"]
     },
     "html": {
       "summary": "Está en todos los desarrollos webs en los q ue trabajo, profesional y personalmente.",
@@ -62,11 +62,11 @@
     },
     "sql_server": {
       "summary": "Es la BBDD relacional con al que trabajo hoy en día en varios proyectos. Algunos de los endpoints de APIs que desarrollo obtienen información a tavés de queries a esta BBDD.",
-      "tag": ["devops"]
+      "tag": ["dba"]
     },
     "mongodb": {
       "summary": "Es la BBDD con la que trabajo habitualmente por el amplio volumen de datos que manejamos",
-      "tag": ["devops"]
+      "tag": ["dba"]
     },
     "mysql": {
       "summary": "Solía ser la BBDD con la que trabajaba en mis primeros proyectos profesionales.",
@@ -107,6 +107,14 @@
     "svn": {
       "summary": "Es la herramienta con la que me inicié en el concepto de versionado de código, y con al que trabajé en mi etapa de desarrollador en Sevilla.",
       "tag": ["devops"]
+    },
+    "android": {
+      "summary": "He desarrollado varias apps en versiones más antiguas de Android y publicado en Google Play",
+      "tag": ["mobile"]
+    },
+    "blackberry": {
+      "summary": "Estuve trabajando varios meses en un proyecto para dispositivos Blackberry",
+      "tag": ["mobile"]
     }
   }
 }

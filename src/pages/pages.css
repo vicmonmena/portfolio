@@ -35,6 +35,13 @@
   height: 80%;
 }
 
+.skills-tags {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 5%;
+}
 /* -------- EDUCATION ------- */
 
 .education-container-reglada, .education-container-noreglada {
