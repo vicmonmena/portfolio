@@ -1,110 +1,112 @@
 {
-  "javascript": {
-    "summary": "",
-    "tag": ["development"]
-  },
-  "java": {
-    "summary": "",
-    "tag": ["development"]
-  },
-  "python": {
-    "summary": "",
-    "tag": ["development"]
-  },
-  "sql": {
-    "summary": "",
-    "tag": ["development"]
-  },
-  "nodejs": {
-    "summary": "",
-    "tag": ["development"]
-  },
-  "reactjs": {
-    "summary": "",
-    "tag": ["development"]
-  },
-  "redux": {
-    "summary": "",
-    "tag": ["development"]
-  },
-  "react-native": {
-    "summary": "",
-    "tag": ["development"]
-  },
-  "html": {
-    "summary": "",
-    "tag": ["development"]
-  },
-  "css": {
-    "summary": "",
-    "tag": ["development"]
-  },
-  "linux": {
-    "summary": "",
-    "tag": ["development"]
-  },
-  "docker": {
-    "summary": "",
-    "tag": ["development"]
-  },
-  "maven": {
-    "summary": "",
-    "tag": ["development"]
-  },
-  "npm": {
-    "summary": "",
-    "tag": ["development"]
-  },
-  "ldap": {
-    "summary": "",
-    "tag": ["development"]
-  },
-  "sqlserver": {
-    "summary": "",
-    "tag": ["development"]
-  },
-  "mongodb": {
-    "summary": "",
-    "tag": ["development"]
-  },
-  "mysql": {
-    "summary": "",
-    "tag": ["development"]
-  },
-  "apirest": {
-    "summary": "",
-    "tag": ["development"]
-  },
-  "soap": {
-    "summary": "",
-    "tag": ["development"]
-  },
-  "json": {
-    "summary": "",
-    "tag": ["development"]
-  },
-  "xml": {
-    "summary": "",
-    "tag": ["development"]
-  },
-  "php": {
-    "summary": "",
-    "tag": ["development"]
-  },
-  "yii2": {
-    "summary": "",
-    "tag": ["development"]
-  },
-  "angularjs": {
-    "summary": "",
-    "tag": ["development"]
-  },
-  "git": {
-    "summary": "",
-    "tag": ["development"]
-  },
-  "svn": {
-    "summary": "",
-    "tag": ["development"]
+  "skills": {
+    "javascript": {
+      "summary": "Hasta que empecé a trabajar con AngularJS y luego NodeJS, siempre utilicé javascript en la parte FrontEnd combinado con JQuery y Ajax",
+      "tag": ["development"]
+    },
+    "java": {
+      "summary": "Fue el primer lenguaje de programación que empecé a dominar, ya desde la carrera.",
+      "tag": ["development"]
+    },
+    "python": {
+      "summary": "Normalmente trabajo con Python cuando quiero realizar pequeños Scripts a modo de ETL.",
+      "tag": ["development"]
+    },
+    "sql": {
+      "summary": "Ya en la carrera comencé a trabajar con BBDD realcionales y continúo trabajando con SQL sobre todo con BBDDs SQL Server.",
+      "tag": ["development"]
+    },
+    "nodejs": {
+      "summary": "Lo utilizo actualmente para desarrollar APIs Rest y para la parte Backend de los proyectos webs en los que trabajo",
+      "tag": ["development"]
+    },
+    "reactjs": {
+      "summary": "Empleo este framework para el desarrollar el Front End de los proyectos en los que trabajo actualmente.",
+      "tag": ["development"]
+    },
+    "redux": {
+      "summary": "Utilizo esta librería junto con React para desarrollar el Front End de los proyectos web.",
+      "tag": ["development"]
+    },
+    "react_native": {
+      "summary": "Durante la formación a través de Udacity pude construir un par de APPs basadas en React Native",
+      "tag": ["development"]
+    },
+    "html": {
+      "summary": "Está en todos los desarrollos webs en los q ue trabajo, profesional y personalmente.",
+      "tag": ["development"]
+    },
+    "css": {
+      "summary": "Cada día aprendo algo nuevo, respeto mucho a la gente que sabe manejarse bien.",
+      "tag": ["development"]
+    },
+    "linux": {
+      "summary": "Desde la carrera donde conocí la distribución Ubuntu, ya empecé a utilizar este SO. Actualmente, los servidores donde despliego las aplicaciones son Linux.",
+      "tag": ["devops"]
+    },
+    "docker": {
+      "summary": "Es la tecnología en la que se encapsulan los proyectos profesionales en los que trabajo.",
+      "tag": ["devops"]
+    },
+    "maven": {
+      "summary": "Utilizo MAVEN como gestor de dependencias JAVA desde que comencé a trabajar allá por 2009",
+      "tag": ["devops"]
+    },
+    "npm": {
+      "summary": "Lo utilizo habitualmente como gestor de depedencias de NODE y para instalar otras utilizadas para desarrollo.",
+      "tag": ["devops"]
+    },
+    "ldap": {
+      "summary": "Este tipo derepositorio suelo usarlo para montar datos estructurados de forma jerárquica a modo de árbol",
+      "tag": ["devops"]
+    },
+    "sql_server": {
+      "summary": "Es la BBDD relacional con al que trabajo hoy en día en varios proyectos. Algunos de los endpoints de APIs que desarrollo obtienen información a tavés de queries a esta BBDD.",
+      "tag": ["devops"]
+    },
+    "mongodb": {
+      "summary": "Es la BBDD con la que trabajo habitualmente por el amplio volumen de datos que manejamos",
+      "tag": ["devops"]
+    },
+    "mysql": {
+      "summary": "Solía ser la BBDD con la que trabajaba en mis primeros proyectos profesionales.",
+      "tag": ["dba"]
+    },
+    "api_rest": {
+      "summary": "Es el modelo de servicio web con el que más he trabajado. Actualmente, desarrollo APIs Rest con NodeJS, pero también lo he hecho en Java",
+      "tag": ["development"]
+    },
+    "soap": {
+      "summary": "En algún proyecto lo utilizamos como alternativa a las API Rest para obtener datos de servicios webs",
+      "tag": ["development"]
+    },
+    "json": {
+      "summary": "Es el formato con el que trabajo para los datos que manejan las APIs Rest que desarrollo actualmente",
+      "tag": ["development"]
+    },
+    "xml": {
+      "summary": "Normalmente he trabajado con este formato cuando tenía que consumir servicios webs basados en SOAP ",
+      "tag": ["development"]
+    },
+    "php": {
+      "summary": "COn este lenguaje empecé a desarrollar mis primeras páginas webs y entender el concepto cliente-servidor, a principios del 2000 en la carrera",
+      "tag": ["development"]
+    },
+    "yii2": {
+      "summary": "Trabajé en dos proyetos desarrollados con este Framework, que permitía generar IU de forma rápida.",
+      "tag": ["development"]
+    },
+    "angularjs": {
+      "summary": "He trabajado con AngularJS tanto para dispositivos móviles (IONIC) como en entornos web",
+      "tag": ["development"]
+    },
+    "git": {
+      "summary": "Es la herramienta que utilizo a diario para el versionado de código",
+      "tag": ["devops"]
+    },
+    "svn": {
+      "summary": "Es la herramienta con la que me inicié en el concepto de versionado de código, y con al que trabajé en mi etapa de desarrollador en Sevilla.",
+      "tag": ["devops"]
+    }
   }
 }

@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import PropTypes from "prop-types"
+import { useStaticQuery, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import SkillItem from "../components/skillItem"
@@ -12,7 +13,100 @@ const items = {
 const Skills = ({location}) => {
 
   const [itemClicked, setItemClicked] = useState("");
-
+  const data = useStaticQuery(graphql`
+    {
+      allDataJson {
+        edges{
+          node {
+            skills {
+              angularjs {
+                summary
+              }
+              api_rest {
+                summary
+              }
+              css {
+                summary
+              }
+              docker {
+                summary
+              }
+              git {
+                summary
+              }
+              html {
+                summary
+              }
+              java {
+                summary
+              }
+              javascript {
+                summary
+              }
+              json {
+                summary
+              }
+              ldap {
+                summary
+              }
+              linux {
+                summary
+              }
+              maven {
+                summary
+              }
+              mongodb {
+                summary
+              }
+              mysql {
+                summary
+              }
+              nodejs {
+                summary
+              }
+              npm {
+                summary
+              }
+              php {
+                summary
+              }
+              python {
+                summary
+              }
+              reactjs {
+                summary
+              }
+              react_native {
+                summary
+              }
+              redux {
+                summary
+              }
+              soap {
+                summary
+              }
+              sql {
+                summary
+              }
+              sql_server {
+                summary
+              }
+              svn {
+                summary
+              }
+              xml {
+                summary
+              }
+              yii2 {
+                summary
+              }
+            }
+          }
+        }
+      }
+    }
+    `)
+  
   function handleClickItem(item) {
     setItemClicked(item)
   }
@@ -21,176 +115,16 @@ const Skills = ({location}) => {
     <Layout path={location.pathname}>
       <SEO title="Home" />
       <div className="skills-container">
-        <div className="skills-items-description">
-          { itemClicked !== "" && items[itemClicked]}
-        </div>
-        <hr className="gradient_line" /> 
         <div className="skills-items">
-          <SkillItem 
-            title="Javascript"
-            summary="Especializado en proyectos con Javascript en FrontEnd (Vanilla, JQuery, Ajax, Lodash, ESx, Angular) y Backend (Node JS, Express, Unirest, Mongoose, LDAP, SQL)"
-            handleClick={() => handleClickItem("js")}
-          />
-          <SkillItem 
-            title="Java"
-            summary="J2ME, J2EE, Android, Hibernate, MyBatis, Spring, Servlets, PreparedStatements, Maven"
-            handleClick={() => handleClickItem("java")}
-          />
-          <SkillItem 
-            title="Python"
-            summary="Python 2 y Python 3. Request, Read & Write CSV/Excels."
-            handleClick={() => handleClickItem("python")}
-          />
-                    <SkillItem 
-            title="Javascript"
-            summary="Especializado en proyectos con Javascript en FrontEnd (Vanilla, JQuery, Ajax, Lodash, ESx, Angular) y Backend (Node JS, Express, Unirest, Mongoose, LDAP, SQL)"
-            handleClick={() => handleClickItem("js")}
-          />
-          <SkillItem 
-            title="Java"
-            summary="J2ME, J2EE, Android, Hibernate, MyBatis, Spring, Servlets, PreparedStatements, Maven"
-            handleClick={() => handleClickItem("java")}
-          />
-          <SkillItem 
-            title="Python"
-            summary="Python 2 y Python 3. Request, Read & Write CSV/Excels."
-            handleClick={() => handleClickItem("python")}
-          />
-                    <SkillItem 
-            title="Javascript"
-            summary="Especializado en proyectos con Javascript en FrontEnd (Vanilla, JQuery, Ajax, Lodash, ESx, Angular) y Backend (Node JS, Express, Unirest, Mongoose, LDAP, SQL)"
-            handleClick={() => handleClickItem("js")}
-          />
-          <SkillItem 
-            title="Java"
-            summary="J2ME, J2EE, Android, Hibernate, MyBatis, Spring, Servlets, PreparedStatements, Maven"
-            handleClick={() => handleClickItem("java")}
-          />
-          <SkillItem 
-            title="Python"
-            summary="Python 2 y Python 3. Request, Read & Write CSV/Excels."
-            handleClick={() => handleClickItem("python")}
-          />
-                    <SkillItem 
-            title="Javascript"
-            summary="Especializado en proyectos con Javascript en FrontEnd (Vanilla, JQuery, Ajax, Lodash, ESx, Angular) y Backend (Node JS, Express, Unirest, Mongoose, LDAP, SQL)"
-            handleClick={() => handleClickItem("js")}
-          />
-          <SkillItem 
-            title="Java"
-            summary="J2ME, J2EE, Android, Hibernate, MyBatis, Spring, Servlets, PreparedStatements, Maven"
-            handleClick={() => handleClickItem("java")}
-          />
-          <SkillItem 
-            title="Python"
-            summary="Python 2 y Python 3. Request, Read & Write CSV/Excels."
-            handleClick={() => handleClickItem("python")}
-          />
-                    <SkillItem 
-            title="Javascript"
-            summary="Especializado en proyectos con Javascript en FrontEnd (Vanilla, JQuery, Ajax, Lodash, ESx, Angular) y Backend (Node JS, Express, Unirest, Mongoose, LDAP, SQL)"
-            handleClick={() => handleClickItem("js")}
-          />
-          <SkillItem 
-            title="Java"
-            summary="J2ME, J2EE, Android, Hibernate, MyBatis, Spring, Servlets, PreparedStatements, Maven"
-            handleClick={() => handleClickItem("java")}
-          />
-          <SkillItem 
-            title="Python"
-            summary="Python 2 y Python 3. Request, Read & Write CSV/Excels."
-            handleClick={() => handleClickItem("python")}
-          />
-                    <SkillItem 
-            title="Javascript"
-            summary="Especializado en proyectos con Javascript en FrontEnd (Vanilla, JQuery, Ajax, Lodash, ESx, Angular) y Backend (Node JS, Express, Unirest, Mongoose, LDAP, SQL)"
-            handleClick={() => handleClickItem("js")}
-          />
-          <SkillItem 
-            title="Java"
-            summary="J2ME, J2EE, Android, Hibernate, MyBatis, Spring, Servlets, PreparedStatements, Maven"
-            handleClick={() => handleClickItem("java")}
-          />
-          <SkillItem 
-            title="Python"
-            summary="Python 2 y Python 3. Request, Read & Write CSV/Excels."
-            handleClick={() => handleClickItem("python")}
-          />
-                    <SkillItem 
-            title="Javascript"
-            summary="Especializado en proyectos con Javascript en FrontEnd (Vanilla, JQuery, Ajax, Lodash, ESx, Angular) y Backend (Node JS, Express, Unirest, Mongoose, LDAP, SQL)"
-            handleClick={() => handleClickItem("js")}
-          />
-          <SkillItem 
-            title="Java"
-            summary="J2ME, J2EE, Android, Hibernate, MyBatis, Spring, Servlets, PreparedStatements, Maven"
-            handleClick={() => handleClickItem("java")}
-          />
-          <SkillItem 
-            title="Python"
-            summary="Python 2 y Python 3. Request, Read & Write CSV/Excels."
-            handleClick={() => handleClickItem("python")}
-          />
-                    <SkillItem 
-            title="Javascript"
-            summary="Especializado en proyectos con Javascript en FrontEnd (Vanilla, JQuery, Ajax, Lodash, ESx, Angular) y Backend (Node JS, Express, Unirest, Mongoose, LDAP, SQL)"
-            handleClick={() => handleClickItem("js")}
-          />
-          <SkillItem 
-            title="Java"
-            summary="J2ME, J2EE, Android, Hibernate, MyBatis, Spring, Servlets, PreparedStatements, Maven"
-            handleClick={() => handleClickItem("java")}
-          />
-          <SkillItem 
-            title="Python"
-            summary="Python 2 y Python 3. Request, Read & Write CSV/Excels."
-            handleClick={() => handleClickItem("python")}
-          />
-                    <SkillItem 
-            title="Javascript"
-            summary="Especializado en proyectos con Javascript en FrontEnd (Vanilla, JQuery, Ajax, Lodash, ESx, Angular) y Backend (Node JS, Express, Unirest, Mongoose, LDAP, SQL)"
-            handleClick={() => handleClickItem("js")}
-          />
-          <SkillItem 
-            title="Java"
-            summary="J2ME, J2EE, Android, Hibernate, MyBatis, Spring, Servlets, PreparedStatements, Maven"
-            handleClick={() => handleClickItem("java")}
-          />
-          <SkillItem 
-            title="Python"
-            summary="Python 2 y Python 3. Request, Read & Write CSV/Excels."
-            handleClick={() => handleClickItem("python")}
-          />
-                    <SkillItem 
-            title="Javascript"
-            summary="Especializado en proyectos con Javascript en FrontEnd (Vanilla, JQuery, Ajax, Lodash, ESx, Angular) y Backend (Node JS, Express, Unirest, Mongoose, LDAP, SQL)"
-            handleClick={() => handleClickItem("js")}
-          />
-          <SkillItem 
-            title="Java"
-            summary="J2ME, J2EE, Android, Hibernate, MyBatis, Spring, Servlets, PreparedStatements, Maven"
-            handleClick={() => handleClickItem("java")}
-          />
-          <SkillItem 
-            title="Python"
-            summary="Python 2 y Python 3. Request, Read & Write CSV/Excels."
-            handleClick={() => handleClickItem("python")}
-          />
-                    <SkillItem 
-            title="Javascript"
-            summary="Especializado en proyectos con Javascript en FrontEnd (Vanilla, JQuery, Ajax, Lodash, ESx, Angular) y Backend (Node JS, Express, Unirest, Mongoose, LDAP, SQL)"
-            handleClick={() => handleClickItem("js")}
-          />
-          <SkillItem 
-            title="Java"
-            summary="J2ME, J2EE, Android, Hibernate, MyBatis, Spring, Servlets, PreparedStatements, Maven"
-            handleClick={() => handleClickItem("java")}
-          />
-          <SkillItem 
-            title="Python"
-            summary="Python 2 y Python 3. Request, Read & Write CSV/Excels."
-            handleClick={() => handleClickItem("python")}
-          />
+          { 
+            Object.keys(data.allDataJson.edges[1].node.skills).map(item => 
+              <SkillItem 
+                title={item}
+                summary={data.allDataJson.edges[1].node.skills[item].summary}
+                handleClick={() => handleClickItem(item)}
+              />
+            )
+          }
         </div>
       </div>
     </Layout>
