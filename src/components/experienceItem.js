@@ -18,7 +18,6 @@ const  ExperienceItem = ({title, subtitle, description, since, to, itemType}) =>
     }
   }
 
-  console.log("to: ", to)
   return (
     itemType !== "star" ?
     <VerticalTimelineElement

@@ -3,7 +3,6 @@ import PropTypes from "prop-types"
 import { Link } from "gatsby"
 
 const NavigationBar = ({path}) => {
-  console.log('path: ', path)
   return (
     <div className='navigation-container'>
       <div className={`navigation-item ${path === '/' ? 'item-selected' : ''}`}>
