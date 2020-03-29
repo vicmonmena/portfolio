@@ -10,7 +10,7 @@ const skillsItem = ({title, summary, handleClick}) => {
   return (
     <div className="skill-item">
       <Tippy content={<span>{summary}</span>}>
-        <button onClick={handleClick}>{title}</button>
+        <button onClick={handleClick} style={{textTransform: "capitalize"}}>{title}</button>
       </Tippy>
     </div>
   )
