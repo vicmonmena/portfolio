@@ -5,11 +5,15 @@ import Footer from "./footer"
 import "./layout.css"
 import SideBar from "./sidebar"
 import NavigationBar from './navigationbar';
+import favicon from '../images/favicon.ico'
+import Helmet from 'react-helmet'
 
 const Layout = ({ children, path }) => {
-
   return (
   <div className='layout'>
+    <Helmet>
+      <link rel="icon" href={favicon} />
+    </Helmet>
     <SideBar />
     <div className='content'>
       <NavigationBar path={path}/>
