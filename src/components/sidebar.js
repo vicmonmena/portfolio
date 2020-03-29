@@ -24,7 +24,8 @@ const SideBar = () => {
           <hr className="gradient_line" />
           <p>
             Hola! Mi nombre es Vicente y me considero un apasionado de la programación. 
-            Siempre aprendiendo y tratando de crear esta cultura entre las personas con las que trabajo.
+            Siempre aprendiendo y tratando de fomentar esta cultura entre las personas con las que me relaciono.
+            (Ya me lo decía mi madre desde pequeño todas las mañanas antes de ir al cole: - "Aprende y disfruta!!")
             Soy un amante de mi familia, en especial mi hija y mi mujer, que hacen que cada día quiera ser mejor persona.
             Seguidor del Betis. Aficionado al Tenis desde pequeño (gracias Papá!). Gamer en decadencia. :_(
             Humor como filosofía de vida y recientemente, he descubierto que me gusta dibujar :D
