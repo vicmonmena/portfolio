@@ -147,19 +147,17 @@ const Skills = ({location}) => {
 
   useEffect(() => {
     // TODO: filtrar listado de skills por tag seleccionado
-    console.log("tag selected: ", tagSelected)
+    
     const totalSkills = data.allDataJson.edges[1].node.skills
     if (tagSelected === 'all') setSkills(totalSkills)
     else {
       const filteredSkills = Object.keys(totalSkills)
         .filter(key => totalSkills[key].tag.includes(tagSelected))
-      console.log('filteredSkills: ', filteredSkills)
       setSkills(Object.fromEntries(filteredSkills.map(key => ([[key], totalSkills[key]]))))
     }
   }, [tagSelected])
 
   useEffect(() => {
-    console.log("Listening for data changes: ", data)
     setSkills(data.allDataJson.edges[1].node.skills)
   }, [data])
   return (
