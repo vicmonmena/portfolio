@@ -5,12 +5,16 @@ import "./skillItem.css"
  
 
 const skillsItem = ({title, summary, handleClick}) => {
-  // TODO: crear tooltip con el summary
-  // TODO: capturar evento handleClick para mostrar fuera una descripción de la skill
+  
+  function formatTitle(title) {
+    console.log("replace: ", title)
+    return title.replace("_", " ")
+  }
+
   return (
     <div className="skill-item">
       <Tippy content={<span>{summary}</span>}>
-        <button onClick={handleClick} style={{textTransform: "capitalize"}}>{title}</button>
+        <button onClick={handleClick} style={{textTransform: "capitalize"}}>{formatTitle(title)}</button>
       </Tippy>
     </div>
   )

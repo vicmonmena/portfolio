@@ -9,7 +9,7 @@
       "tag": ["development"]
     },
     "python": {
-      "summary": "Normalmente trabajo con Python cuando quiero realizar pequeños Scripts a modo de ETL.",
+      "summary": "Normalmente trabajo con Python cuando quiero implementar scripts a modo de ETL.",
       "tag": ["development"]
     },
     "sql": {
