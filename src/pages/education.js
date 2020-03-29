@@ -44,11 +44,11 @@ function Education({location}) {
       <SEO title="Home" />
       {/* <h1>{location.pathname}</h1> */}
       <div className ='education-container'>
-        <div className ='education-container-reglada'>
-          <h3 className="education-title">Formación Reglada</h3>
-          <hr className="gradient_line" /> 
+        <div className ='education-container-noreglada'>
+          <h3 className="education-title">Formación No Reglada</h3>
+          <hr className="gradient_line" />
           {
-            data.allDataJson.nodes[0].reglada.sort((a, b) => a.id - b.id).map(item => {
+            data.allDataJson.nodes[0].noreglada.sort((a, b) => a.id - b.id).map(item => {
               return (
                 <EducationItem 
                   logo={item.logo}
@@ -62,11 +62,11 @@ function Education({location}) {
             })
           }
         </div>
-        <div className ='education-container-noreglada'>
-          <h3 className="education-title">Formación No Reglada</h3>
-          <hr className="gradient_line" />
+        <div className ='education-container-reglada'>
+          <h3 className="education-title">Formación Reglada</h3>
+          <hr className="gradient_line" /> 
           {
-            data.allDataJson.nodes[0].noreglada.sort((a, b) => a.id - b.id).map(item => {
+            data.allDataJson.nodes[0].reglada.sort((a, b) => a.id - b.id).map(item => {
               return (
                 <EducationItem 
                   logo={item.logo}
