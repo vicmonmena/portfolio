@@ -762,9 +762,18 @@ pre tt:after {
 }
 
 .footer {
-  flex-shrink: 0;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  height: 50px;
+  background-color: var(--blue-color);
+  padding: 10px;
+  text-align: center;
+  /* font-weight: bold; */
+  color: white;
 }
 
 .footer a {
-  color: #0071B9;
+  color: black;
+  text-decoration: underline;
 }
