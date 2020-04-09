@@ -42,7 +42,7 @@ const SideBar = () => {
           </div>
         </div>
         <div className='sidebar-info-item'>
-          <h3 className='sidebar-info-item-title'>Follow me</h3>
+          <h3 className='sidebar-info-item-title'>Sígueme</h3>
           <hr className="gradient_line" />
           <div className='followme'>
             <a href="https://twitter.com/vicmonmena" target="_blank" rel="noopener noreferrer"><img style={styles} src={twitter} alt="Twitter" title="Twitter" /></a>
