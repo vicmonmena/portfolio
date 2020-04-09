@@ -18,8 +18,8 @@ const Layout = ({ children, path }) => {
     <div className='content'>
       <NavigationBar path={path}/>
       <main className='main-container'>{children}</main>
-      <Footer />
     </div>
+    <Footer />
   </div>
   )
 }

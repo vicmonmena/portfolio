@@ -9,7 +9,7 @@ const Footer = () => (
     and <a href="https://reactjs.org/">React</a>.
     Hosted on 
     {` `}
-    <a href="/">??</a>.
+    <a href="https://www.netlify.com/">Netlify</a>.
     This code is available at
     {` `}
     <a href="https://github.com/vicmonmena/portfolio">Github</a>.
