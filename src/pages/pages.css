@@ -27,13 +27,13 @@
   color: var(--gray-color);
 }
 
-.skills-items {
+/* .skills-items {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   height: 80%;
-}
+} */
 
 .skills-tags {
   display: flex;
@@ -53,4 +53,20 @@
 .education-title {
   margin-top: 30px;
   font-weight: bold;
+}
+
+@media screen and (max-width: 480px) {
+  .skills-tags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 40px;
+  }
+  .skills-items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
