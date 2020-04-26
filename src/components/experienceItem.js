@@ -37,7 +37,9 @@ const  ExperienceItem = ({title, subtitle, description, since, to, itemType}) =>
     <VerticalTimelineElement
       iconStyle={{ background: '#7878784d', color: '#fff' }}
       icon={<Star />}
-    />
+    >
+      <h3 className="vertical-timeline-element-title">Inicio</h3>
+    </VerticalTimelineElement>
   )
 }
 

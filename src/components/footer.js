@@ -2,15 +2,15 @@ import React from "react"
 
 const Footer = () => (
   <footer className='footer'>
-    Built with
+    Este proyecto está desarrollado con 
     {` `}
     <a href="https://www.gatsbyjs.org">Gatsby</a>
     {` `}
-    and <a href="https://reactjs.org/">React</a>.
-    Hosted on 
+    y <a href="https://reactjs.org/">React</a>.
+    Se aloja en 
     {` `}
     <a href="https://www.netlify.com/">Netlify</a>.
-    This code is available at
+    Puedes encontrar el código en 
     {` `}
     <a href="https://github.com/vicmonmena/portfolio">Github</a>.
   </footer>

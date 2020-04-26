@@ -5,44 +5,12 @@
   --gray-color-opacity: #7878784d;
 }
 
-/* -------- PAGE CONTAINERS ------- */
-
-.experience-container, .skills-container, .education-container {
-  display: flex;
-  flex-direction: column;
-  align-content: space-between;
-  margin-top: 30px;
-  width: 90%;
-}
-
-/* -------- EXPERIENCE ------- */
-
-
-/* -------- SKILLS ------- */
-
 .skills-items-description {
   display: flex;
   height: 20%;
   align-items: center;
   color: var(--gray-color);
 }
-
-.skills-items {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  height: 80%;
-}
-
-.skills-tags {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  height: 5%;
-}
-/* -------- EDUCATION ------- */
 
 .education-container-reglada, .education-container-noreglada {
   display: flex;
@@ -53,4 +21,97 @@
 .education-title {
   margin-top: 30px;
   font-weight: bold;
+}
+
+/* 
+  ##Device = Descktop
+*/
+@media screen and (min-width: 768px) {
+  .experience-container, .skills-container, .education-container {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    margin-top: 30px;
+    width: 90%;
+    margin-bottom: 50px;
+  }
+  .skills-tags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 5%;
+  }
+  
+  .skills-items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 80%;
+  }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  .experience-container {
+    display: flex;
+    width: 90%;
+    margin-bottom: 50px;
+  }
+  .skills-container, .education-container {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    margin-top: 30px;
+    width: 90%;
+  }
+  .skills-tags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 40px;
+  }
+  .skills-items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 70px;
+
+  }
+}
+
+/* 320px — 480px: Mobile devices. */
+@media screen and (min-width: 320px) and (max-width: 480px)  {
+  .experience-container {
+    display: flex;
+    width: 90%;
+    margin-bottom: 50px;
+  }
+  .skills-container, .education-container {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    margin-top: 30px;
+    width: 90%;
+  }
+  .skills-tags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 40px;
+  }
+  .skills-items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 70px;
+  }
 }

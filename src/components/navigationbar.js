@@ -6,13 +6,13 @@ const NavigationBar = ({path}) => {
   return (
     <div className='navigation-container'>
       <div className={`navigation-item ${path === '/' ? 'item-selected' : ''}`}>
-        <Link to="/"> Experience </Link>
+        <Link to="/"> Experiencia </Link>
       </div>
       <div className={`navigation-item ${path === '/skills' ? 'item-selected' : ''}`}>
-        <Link to="/skills" > Skills </Link>
+        <Link to="/skills"> Habilidades </Link>
       </div>
       <div className={`navigation-item ${path === '/education' ? 'item-selected' : ''}`}>
-        <Link to="/education" > Education </Link>
+        <Link to="/education">Formación </Link>
       </div>
     </div>
   )
